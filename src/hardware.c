@@ -1,3 +1,16 @@
+//---------------------------------------------------------------------------
+// Titel        : Stepper Driver STM32F0
+//---------------------------------------------------------------------------
+// Funktion     : Hardware configuration des Schrittmotortreiber
+// Schaltung    :
+//---------------------------------------------------------------------------
+// Hardware     : STM32F051
+// Takt         : 48MHz
+// Sprache      : ARM C
+// Datum        : 14.11.2014
+// Version      : 1
+// Autor        : David Linzberger
+//---------------------------------------------------------------------------
 #include "main.h"
 #include "pins.h"
 #include "hardware.h"

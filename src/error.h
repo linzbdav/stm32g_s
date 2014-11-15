@@ -1,0 +1,30 @@
+#ifndef _ERRORS_H_
+#define _ERRORS_H_
+
+// Error NR
+#define ERROR_NR				0xFF
+
+// No Error
+#define ERROR_NOERROR			0x00
+#define ERROR_ERROR				0x01
+
+// General Erros
+#define ERROR_CHECKSUM			0x01
+#define ERROR_COMMAND			0x02
+#define ERROR_OVERCURRENT		0x03
+#define ERROR_INCHRTMO			0x04
+#define ERROR_POSITION			0x05
+
+// Command Specific Errors
+#define ERROR_ADC_DISABLED		0x10
+#define ERROR_PARAMETER_RANGE	0x20
+#define ERROR_LOGGER_RUNNING	0x30
+#define ERROR_LOGGER_STOPED		0x40
+#define ERROR_DIAGNOSTIC_RUNNING 0x50
+#define ERROR_COMMAND_SEQUENCE	0x60
+#define ERROR_FLASH_WRITE_FAILED 0x70
+#define ERROR_CALIBRATION_RANGE	0x80
+#define ERROR_HBRIDGE_ACTIVE	0x90
+#define ERROR_CONTROLLER_AUTO	0xA0
+
+#endif // _ERRORS_H_
